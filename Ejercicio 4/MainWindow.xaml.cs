@@ -15,7 +15,6 @@ namespace Ejercicio_4
         {
             InitializeComponent();
         }
-
         private void textoTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             contadorTextBlock.Text = (textoTextBox.Text.Length) + "/140";
